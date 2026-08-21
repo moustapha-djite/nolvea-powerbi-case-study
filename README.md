@@ -6,7 +6,9 @@ Cas d’étude personnel de Business Intelligence consacré à la transformation
 https://moustapha-djite.netlify.app/projects/nolvea
 
 > **Projet portfolio fictif** — l’entreprise et les données sont entièrement synthétiques et ont été conçues pour reproduire un contexte réaliste de reporting commercial B2B.
+![Vue d'ensemble du dashboard Power BI Nolvéa Distribution](screenshots/overview.png)
 
+*Vue d'ensemble — performance commerciale, objectifs, catégories et canaux.*
 ---
 
 ## Le contexte
@@ -90,7 +92,9 @@ Principales tables :
 - `_Controles`
 
 Les mesures métier sont centralisées dans `_Mesures` afin de séparer les calculs DAX des tables de données.
+![Modèle de données Power BI](screenshots/data-model.png)
 
+*Modèle analytique avec tables de faits, dimensions et tables techniques dédiées aux mesures et contrôles.*
 ---
 
 ## Quelques indicateurs DAX
@@ -139,6 +143,7 @@ Exploration de la performance des commerciaux et de leur portefeuille clients :
 - taux de remise ;
 - top clients ;
 - analyse par segment.
+![Analyse commerciale Power BI](screenshots/commercial.png)
 
 ### 03 — Analyse produits
 
@@ -148,6 +153,7 @@ Analyse croisée du volume, du chiffre d’affaires et de la rentabilité :
 - rentabilité par catégorie ;
 - volume × marge ;
 - identification de produits à surveiller.
+![Analyse produits Power BI](screenshots/products.png)
 
 ### 04 — Décomposition de la marge
 
@@ -156,7 +162,7 @@ Arbre de décomposition permettant de naviguer progressivement :
 **catégorie → sous-catégorie → marque → produit**
 
 pour comprendre les principaux contributeurs à la marge.
-
+![Décomposition de la marge Power BI](screenshots/margin-decomposition.png)
 ---
 
 ## Exemples d’insights
