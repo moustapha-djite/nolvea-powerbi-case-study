@@ -9,14 +9,13 @@ Cette page présente l’architecture générale du cas d’étude Nolvéa Distr
 ## Vue d’ensemble
 
 ```mermaid
-flowchart LR
-    A[12 exports mensuels ERP] --> B[Power Query]
-    B --> C[Harmonisation des 2 formats ERP]
-    C --> D[Nettoyage et contrôles qualité]
-    D --> E[Modèle analytique en étoile]
-    E --> F[Mesures DAX]
-    F --> G[Rapport Power BI]
-    G --> H[Analyse commerciale et rentabilité]
+flowchart TB
+    A["Sources<br/>12 exports mensuels<br/>GESCOM + SAGE X3"]
+    B["Préparation<br/>Power Query<br/>Harmonisation + Data Quality"]
+    C["Modélisation<br/>Tables de faits + dimensions<br/>Mesures DAX"]
+    D["Restitution<br/>4 pages Power BI<br/>Pilotage + analyses métier"]
+
+    A --> B --> C --> D
 ```
 
 La chaîne a été conçue pour absorber des fichiers mensuels hétérogènes tout en conservant un modèle analytique stable pour la restitution.
