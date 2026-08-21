@@ -2,8 +2,11 @@
 
 Cas d’étude personnel de Business Intelligence consacré à la transformation d’un reporting commercial manuel en solution Power BI automatisée, fiabilisée et interactive.
 
-🌐 **Étude de cas complète :**  
+🌐 **Étude de cas complète :**
 https://moustapha-djite.netlify.app/projects/nolvea
+
+📥 **[Télécharger le rapport Power BI (.pbix)](powerbi/Nolvea_Distribution.pbix)**  
+Fichier Power BI Desktop permettant d’explorer le modèle, les mesures DAX et les quatre pages du rapport.
 
 > **Projet portfolio fictif** — l’entreprise et les données sont entièrement synthétiques et ont été conçues pour reproduire un contexte réaliste de reporting commercial B2B.
 ![Vue d'ensemble du dashboard Power BI Nolvéa Distribution](screenshots/overview.png)
