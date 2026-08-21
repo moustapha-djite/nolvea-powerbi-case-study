@@ -113,7 +113,7 @@ Le rapport inclut notamment :
 - taux de remise pondéré ;
 - classements commerciaux ;
 - indicateurs de surveillance produit.
-
+➡️ **Voir une sélection commentée de mesures DAX :** [dax/measures.md](dax/measures.md)
 ---
 
 ## Le dashboard
