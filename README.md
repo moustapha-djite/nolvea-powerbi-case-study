@@ -113,8 +113,16 @@ Le rapport inclut notamment :
 - taux de remise pondéré ;
 - classements commerciaux ;
 - indicateurs de surveillance produit.
-➡️ **Voir une sélection commentée de mesures DAX :** [dax/measures.md](dax/measures.md)
+
 ---
+
+## Documentation technique
+
+Pour aller au-delà de la présentation du dashboard :
+
+- 🏗️ **[Architecture analytique](docs/architecture.md)** — sources, Power Query, modèle dimensionnel et couche DAX ;
+- 🧹 **[Data Quality](docs/data-quality.md)** — changement d’ERP, doublons, normalisation des clés et contrôles de cohérence ;
+- 📐 **[Mesures DAX](dax/measures.md)** — sélection commentée de mesures utilisées dans le rapport.
 
 ## Le dashboard
 
